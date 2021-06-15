@@ -1,0 +1,53 @@
+.tattoo-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+}
+
+.tattoo-bg {
+    background-color: rgba(0, 0, 0, 0.817);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    cursor: zoom-out;
+}
+
+.tattoo-content {
+    max-width: 1900px;
+}
+
+.tattoo-content img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 150px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.tattoo-content h3 {
+    color: black;
+    text-align: center;
+}
+
+.box{
+    position: relative;
+}
+
+.title{
+    background-color: red;
+    font-size: 20px;
+    padding: 8px;
+    position: absolute;
+    top: 5px;
+    left: 350px;
+    border-radius: 4%;
+}
